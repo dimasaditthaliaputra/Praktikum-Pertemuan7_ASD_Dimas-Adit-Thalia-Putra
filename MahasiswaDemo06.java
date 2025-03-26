@@ -50,7 +50,7 @@ public class MahasiswaDemo06 {
         System.out.println("------------------------------------------");
         System.out.println("Menggunakan binary search");
         System.out.println("------------------------------------------");
-        double posisi2 = list.sequentialSearching(cari2);
+        double posisi2 = list.findBinarySearch(cari2, 0, jumMhs - 1);
         int pss2 = (int)posisi2;
         list.tampilPosisi(cari2, pss2);
         list.tampilDataSearch(cari2, pss2);
